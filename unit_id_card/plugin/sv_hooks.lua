@@ -1,5 +1,5 @@
 function PLUGIN:PlayerCanUseDoor(player, door)
-	if (player:GetSharedVar("tied") == 0 and player:HasItemByID("unit_id_card")) then
+	if (player:GetSharedVar("IsTied") == 0 and player:HasItemByID("unit_id_card")) then
 		return true;
 	end;
 end;
